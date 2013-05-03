@@ -24,6 +24,7 @@
 		D6652B2F1733B909007E5A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B071733B909007E5A1C /* Foundation.framework */; };
 		D6652B371733B909007E5A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6652B351733B909007E5A1C /* InfoPlist.strings */; };
 		D6652B3A1733B909007E5A1C /* DDTTagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6652B391733B909007E5A1C /* DDTTagViewTests.m */; };
+		D6C8A16C1733FC9600643184 /* DDTTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C8A16B1733FC9600643184 /* DDTTagView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D6652B361733B909007E5A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D6652B381733B909007E5A1C /* DDTTagViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTTagViewTests.h; sourceTree = "<group>"; };
 		D6652B391733B909007E5A1C /* DDTTagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTTagViewTests.m; sourceTree = "<group>"; };
+		D6C8A16A1733FC9600643184 /* DDTTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTagView.h; sourceTree = "<group>"; };
+		D6C8A16B1733FC9600643184 /* DDTTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTagView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,7 @@
 		D6652B0B1733B909007E5A1C /* DDTTagView */ = {
 			isa = PBXGroup;
 			children = (
+				D6C8A1691733FC3F00643184 /* Control */,
 				D6652B141733B909007E5A1C /* AppDelegate.h */,
 				D6652B151733B909007E5A1C /* AppDelegate.m */,
 				D6652B1D1733B909007E5A1C /* MainStoryboard_iPhone.storyboard */,
@@ -161,6 +165,15 @@
 				D6652B351733B909007E5A1C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6C8A1691733FC3F00643184 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				D6C8A16A1733FC9600643184 /* DDTTagView.h */,
+				D6C8A16B1733FC9600643184 /* DDTTagView.m */,
+			);
+			name = Control;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +290,7 @@
 				D6652B121733B909007E5A1C /* main.m in Sources */,
 				D6652B161733B909007E5A1C /* AppDelegate.m in Sources */,
 				D6652B251733B909007E5A1C /* ViewController.m in Sources */,
+				D6C8A16C1733FC9600643184 /* DDTTagView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +481,7 @@
 				D6652B3F1733B909007E5A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6652B401733B909007E5A1C /* Build configuration list for PBXNativeTarget "DDTTagViewTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +490,7 @@
 				D6652B421733B909007E5A1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
