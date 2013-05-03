@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6652B061733B909007E5A1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B051733B909007E5A1C /* UIKit.framework */; };
+		D6652B081733B909007E5A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B071733B909007E5A1C /* Foundation.framework */; };
+		D6652B0A1733B909007E5A1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B091733B909007E5A1C /* CoreGraphics.framework */; };
+		D6652B101733B909007E5A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6652B0E1733B909007E5A1C /* InfoPlist.strings */; };
+		D6652B121733B909007E5A1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6652B111733B909007E5A1C /* main.m */; };
+		D6652B161733B909007E5A1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6652B151733B909007E5A1C /* AppDelegate.m */; };
+		D6652B181733B909007E5A1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D6652B171733B909007E5A1C /* Default.png */; };
+		D6652B1A1733B909007E5A1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6652B191733B909007E5A1C /* Default@2x.png */; };
+		D6652B1C1733B909007E5A1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6652B1B1733B909007E5A1C /* Default-568h@2x.png */; };
+		D6652B1F1733B909007E5A1C /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6652B1D1733B909007E5A1C /* MainStoryboard_iPhone.storyboard */; };
+		D6652B221733B909007E5A1C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6652B201733B909007E5A1C /* MainStoryboard_iPad.storyboard */; };
+		D6652B251733B909007E5A1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6652B241733B909007E5A1C /* ViewController.m */; };
+		D6652B2D1733B909007E5A1C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B2C1733B909007E5A1C /* SenTestingKit.framework */; };
+		D6652B2E1733B909007E5A1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B051733B909007E5A1C /* UIKit.framework */; };
+		D6652B2F1733B909007E5A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6652B071733B909007E5A1C /* Foundation.framework */; };
+		D6652B371733B909007E5A1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6652B351733B909007E5A1C /* InfoPlist.strings */; };
+		D6652B3A1733B909007E5A1C /* DDTTagViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6652B391733B909007E5A1C /* DDTTagViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6652B301733B909007E5A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6652AFA1733B909007E5A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6652B011733B909007E5A1C;
+			remoteInfo = DDTTagView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6652B021733B909007E5A1C /* DDTTagView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDTTagView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6652B051733B909007E5A1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D6652B071733B909007E5A1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D6652B091733B909007E5A1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D6652B0D1733B909007E5A1C /* DDTTagView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDTTagView-Info.plist"; sourceTree = "<group>"; };
+		D6652B0F1733B909007E5A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6652B111733B909007E5A1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6652B131733B909007E5A1C /* DDTTagView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDTTagView-Prefix.pch"; sourceTree = "<group>"; };
+		D6652B141733B909007E5A1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6652B151733B909007E5A1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6652B171733B909007E5A1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D6652B191733B909007E5A1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D6652B1B1733B909007E5A1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D6652B1E1733B909007E5A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D6652B211733B909007E5A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D6652B231733B909007E5A1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6652B241733B909007E5A1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6652B2B1733B909007E5A1C /* DDTTagViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDTTagViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6652B2C1733B909007E5A1C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D6652B341733B909007E5A1C /* DDTTagViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDTTagViewTests-Info.plist"; sourceTree = "<group>"; };
+		D6652B361733B909007E5A1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D6652B381733B909007E5A1C /* DDTTagViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDTTagViewTests.h; sourceTree = "<group>"; };
+		D6652B391733B909007E5A1C /* DDTTagViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDTTagViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6652AFF1733B909007E5A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B061733B909007E5A1C /* UIKit.framework in Frameworks */,
+				D6652B081733B909007E5A1C /* Foundation.framework in Frameworks */,
+				D6652B0A1733B909007E5A1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6652B271733B909007E5A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B2D1733B909007E5A1C /* SenTestingKit.framework in Frameworks */,
+				D6652B2E1733B909007E5A1C /* UIKit.framework in Frameworks */,
+				D6652B2F1733B909007E5A1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6652AF91733B909007E5A1C = {
+			isa = PBXGroup;
+			children = (
+				D6652B0B1733B909007E5A1C /* DDTTagView */,
+				D6652B321733B909007E5A1C /* DDTTagViewTests */,
+				D6652B041733B909007E5A1C /* Frameworks */,
+				D6652B031733B909007E5A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6652B031733B909007E5A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B021733B909007E5A1C /* DDTTagView.app */,
+				D6652B2B1733B909007E5A1C /* DDTTagViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6652B041733B909007E5A1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B051733B909007E5A1C /* UIKit.framework */,
+				D6652B071733B909007E5A1C /* Foundation.framework */,
+				D6652B091733B909007E5A1C /* CoreGraphics.framework */,
+				D6652B2C1733B909007E5A1C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6652B0B1733B909007E5A1C /* DDTTagView */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B141733B909007E5A1C /* AppDelegate.h */,
+				D6652B151733B909007E5A1C /* AppDelegate.m */,
+				D6652B1D1733B909007E5A1C /* MainStoryboard_iPhone.storyboard */,
+				D6652B201733B909007E5A1C /* MainStoryboard_iPad.storyboard */,
+				D6652B231733B909007E5A1C /* ViewController.h */,
+				D6652B241733B909007E5A1C /* ViewController.m */,
+				D6652B0C1733B909007E5A1C /* Supporting Files */,
+			);
+			path = DDTTagView;
+			sourceTree = "<group>";
+		};
+		D6652B0C1733B909007E5A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B0D1733B909007E5A1C /* DDTTagView-Info.plist */,
+				D6652B0E1733B909007E5A1C /* InfoPlist.strings */,
+				D6652B111733B909007E5A1C /* main.m */,
+				D6652B131733B909007E5A1C /* DDTTagView-Prefix.pch */,
+				D6652B171733B909007E5A1C /* Default.png */,
+				D6652B191733B909007E5A1C /* Default@2x.png */,
+				D6652B1B1733B909007E5A1C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6652B321733B909007E5A1C /* DDTTagViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B381733B909007E5A1C /* DDTTagViewTests.h */,
+				D6652B391733B909007E5A1C /* DDTTagViewTests.m */,
+				D6652B331733B909007E5A1C /* Supporting Files */,
+			);
+			path = DDTTagViewTests;
+			sourceTree = "<group>";
+		};
+		D6652B331733B909007E5A1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6652B341733B909007E5A1C /* DDTTagViewTests-Info.plist */,
+				D6652B351733B909007E5A1C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6652B011733B909007E5A1C /* DDTTagView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6652B3D1733B909007E5A1C /* Build configuration list for PBXNativeTarget "DDTTagView" */;
+			buildPhases = (
+				D6652AFE1733B909007E5A1C /* Sources */,
+				D6652AFF1733B909007E5A1C /* Frameworks */,
+				D6652B001733B909007E5A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDTTagView;
+			productName = DDTTagView;
+			productReference = D6652B021733B909007E5A1C /* DDTTagView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6652B2A1733B909007E5A1C /* DDTTagViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6652B401733B909007E5A1C /* Build configuration list for PBXNativeTarget "DDTTagViewTests" */;
+			buildPhases = (
+				D6652B261733B909007E5A1C /* Sources */,
+				D6652B271733B909007E5A1C /* Frameworks */,
+				D6652B281733B909007E5A1C /* Resources */,
+				D6652B291733B909007E5A1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6652B311733B909007E5A1C /* PBXTargetDependency */,
+			);
+			name = DDTTagViewTests;
+			productName = DDTTagViewTests;
+			productReference = D6652B2B1733B909007E5A1C /* DDTTagViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6652AFA1733B909007E5A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "daren taylor";
+			};
+			buildConfigurationList = D6652AFD1733B909007E5A1C /* Build configuration list for PBXProject "DDTTagView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6652AF91733B909007E5A1C;
+			productRefGroup = D6652B031733B909007E5A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6652B011733B909007E5A1C /* DDTTagView */,
+				D6652B2A1733B909007E5A1C /* DDTTagViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6652B001733B909007E5A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B101733B909007E5A1C /* InfoPlist.strings in Resources */,
+				D6652B181733B909007E5A1C /* Default.png in Resources */,
+				D6652B1A1733B909007E5A1C /* Default@2x.png in Resources */,
+				D6652B1C1733B909007E5A1C /* Default-568h@2x.png in Resources */,
+				D6652B1F1733B909007E5A1C /* MainStoryboard_iPhone.storyboard in Resources */,
+				D6652B221733B909007E5A1C /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6652B281733B909007E5A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B371733B909007E5A1C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6652B291733B909007E5A1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6652AFE1733B909007E5A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B121733B909007E5A1C /* main.m in Sources */,
+				D6652B161733B909007E5A1C /* AppDelegate.m in Sources */,
+				D6652B251733B909007E5A1C /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6652B261733B909007E5A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6652B3A1733B909007E5A1C /* DDTTagViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6652B311733B909007E5A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6652B011733B909007E5A1C /* DDTTagView */;
+			targetProxy = D6652B301733B909007E5A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6652B0E1733B909007E5A1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6652B0F1733B909007E5A1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D6652B1D1733B909007E5A1C /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6652B1E1733B909007E5A1C /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D6652B201733B909007E5A1C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6652B211733B909007E5A1C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D6652B351733B909007E5A1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6652B361733B909007E5A1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6652B3B1733B909007E5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6652B3C1733B909007E5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6652B3E1733B909007E5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDTTagView/DDTTagView-Prefix.pch";
+				INFOPLIST_FILE = "DDTTagView/DDTTagView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D6652B3F1733B909007E5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDTTagView/DDTTagView-Prefix.pch";
+				INFOPLIST_FILE = "DDTTagView/DDTTagView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D6652B411733B909007E5A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DDTTagView.app/DDTTagView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDTTagView/DDTTagView-Prefix.pch";
+				INFOPLIST_FILE = "DDTTagViewTests/DDTTagViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D6652B421733B909007E5A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DDTTagView.app/DDTTagView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDTTagView/DDTTagView-Prefix.pch";
+				INFOPLIST_FILE = "DDTTagViewTests/DDTTagViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6652AFD1733B909007E5A1C /* Build configuration list for PBXProject "DDTTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6652B3B1733B909007E5A1C /* Debug */,
+				D6652B3C1733B909007E5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6652B3D1733B909007E5A1C /* Build configuration list for PBXNativeTarget "DDTTagView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6652B3E1733B909007E5A1C /* Debug */,
+				D6652B3F1733B909007E5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6652B401733B909007E5A1C /* Build configuration list for PBXNativeTarget "DDTTagViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6652B411733B909007E5A1C /* Debug */,
+				D6652B421733B909007E5A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6652AFA1733B909007E5A1C /* Project object */;
+}
